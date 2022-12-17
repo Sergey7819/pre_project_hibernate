@@ -1,14 +1,13 @@
 package org.hibernate.dao;
 
 
-
 import org.hibernate.entity.User;
 
 import java.util.List;
 
 public interface UserDao {
 
-    void createUsersTable() ;
+    void createUsersTable();
 
     void dropUsersTable();
 
